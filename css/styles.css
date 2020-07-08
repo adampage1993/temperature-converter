@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+h1 {
+  margin: 2.5rem;
+  color: rgb(3, 72, 175);
+}
+
+input {
+  width: 30vw;
+  height: 4rem;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  font-family: poppins;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 72, 175);
+}
+
+footer {
+  margin: 2.5rem;
+  font-size: 0.7rem;
+  color: rgb(3, 72, 175);
+  font-style: italic;
+}
+
+::placeholder {
+  color: aliceblue;
+  font-family: poppins;
+}
+
+#celsius > input {
+  background-color: rgb(63, 212, 192);
+}
+
+#fahrenheit > input {
+  background-color: rgb(51, 154, 250);
+}
+
+#kelvin > input {
+  background-color: rgb(46, 34, 224);
+}
+
+/* Removes arrows on inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
